@@ -3,7 +3,7 @@ import img1 from '../../assets/image1.svg'
 import './Startframework.css'
 
 
-export default function Startframework() {
+export default function FramWorkApp() {
     useEffect(()=>{
         document.title = 'Start Framework'
     },[])

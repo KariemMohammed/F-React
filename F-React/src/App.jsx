@@ -10,29 +10,20 @@ import Portfolio from './Components/Portfolio/Portfolio'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Layout from './Components/Layout/Layout'
 import Notfound from './Components/Notfound/Notfound'
-import Startframework from './Components/Startframework/Startframework'
+import FramWorkApp from './Components/FramWorkApp/FramWorkApp'
 
-// let x = createBrowserRouter([
-//   {path:'', element:<Layout/>,children:[
-//   {index:true, element:<Startframework/>},
-//   {path:'About', element:<About/>},
-//   {path:'Portfolio', element:<Portfolio/>},
-//   {path:'Contact', element:<Contact/>},
-//   {path:'*', element:<Notfound/>},
-//   {path: 'Startframework' , element:<Startframework/>}
-//   ]},
-  
-// ])
+
+
 
 let x = createBrowserRouter([
   {
-    path: '/Startframework',
+    path: '/FramWorkApp/',
     element: <Layout />,
     children: [
-      { index: true, element: <Startframework /> },              
-      { path: 'About', element: <About /> },                     
-      { path: 'Portfolio', element: <Portfolio /> },            
-      { path: 'Contact', element: <Contact /> },                 
+      { index: true, element: <FramWorkApp /> },
+      { path: 'About', element: <About /> },
+      { path: 'Portfolio', element: <Portfolio /> },
+      { path: 'Contact', element: <Contact /> },
       { path: '*', element: <Notfound /> }
     ]
   }
