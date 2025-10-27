@@ -17,7 +17,7 @@ import FramWorkApp from './Components/FramWorkApp/FramWorkApp'
 
 let x = createBrowserRouter([
   {
-    path: '/F-React/',
+    path: '/',
     element: <Layout />,
     children: [
       { index: true, element: <FramWorkApp /> },
