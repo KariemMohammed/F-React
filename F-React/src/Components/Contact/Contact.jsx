@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import port3 from '../../assets/port3.PNG'
 
 
 export default function Contact() {
