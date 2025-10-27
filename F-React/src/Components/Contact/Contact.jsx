@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import port1 from '../../assets/port3.PNG'
+import port3 from '../../assets/port3.PNG'
 
 
 export default function Contact() {
