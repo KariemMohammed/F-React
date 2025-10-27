@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: 🚀 Deploy F-React to GitHub Pages
 
 on:
   push:
@@ -24,8 +24,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22.19'
-          cache: 'npm'
+          node-version: 22
 
       - name: Install dependencies
         run: npm ci
@@ -37,6 +36,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist  
+
   deploy:
     environment:
       name: github-pages
